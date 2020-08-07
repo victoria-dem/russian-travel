@@ -12,8 +12,8 @@
 Одностраничный сайт с корректным отображением на экранах от 320px и выше.
  
    
-**Путешествие по России**
+**Путешествие по России :**
 
-* [Ссылка на работу](https://www.figma.com/file/OyRWEjU6wBwRe1hapzQoLx/Sprint-3%3A-Russia-%2F-desktop-%2B-mobile?node-id=28503%3A0)
+* [Ссылка на работу](https://victoria-dem.github.io/russian-travel/.)
 
 
