@@ -1,0 +1,13 @@
+.header__language-item {
+	padding: 0 18px 0 0;
+}
+
+.header__language-item:last-of-type {
+	padding: 0;
+}
+
+@media screen and (max-width: 425px) {
+	.header__language-item {
+		padding: 0 22px 0 0;
+	}
+}

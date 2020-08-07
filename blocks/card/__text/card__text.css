@@ -1,0 +1,20 @@
+.card__text {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 1.63;
+	margin: 0;
+	padding-bottom: 24px;
+}
+
+@media screen and (max-width: 1023px) {
+	.card__text {
+		font-size: 16px;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.card__text {
+		padding: 27px 16px 0 16px;
+	}
+}

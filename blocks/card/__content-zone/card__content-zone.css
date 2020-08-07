@@ -1,0 +1,9 @@
+.card__content-zone {
+	display: flex;
+}
+
+@media screen and (max-width: 680px) {
+	.card__content-zone {
+		flex-direction: column;
+	}
+}

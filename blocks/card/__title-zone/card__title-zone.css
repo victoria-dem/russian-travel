@@ -1,0 +1,11 @@
+.card__title-zone {
+	display: flex;
+	padding: 0 0 42px 0;
+}
+
+@media screen and (max-width: 680px) {
+	.card__title-zone {
+		padding: 0 0 32px 0;
+		flex-direction: column;
+	}
+}

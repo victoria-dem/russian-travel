@@ -1,0 +1,23 @@
+@import url('./__language/header__language.css');
+@import url('./__language-item/header__language-item.css');
+@import url('./__language-link/header__language-link.css');
+@import url('./__language-link/_active/header__language-link_active.css');
+.header {
+	padding: 28px 48px 0 48px;
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	margin: 0 auto;
+}
+
+@media screen and (max-width:768px) {
+	.header {
+		padding: 28px 24px 0 24px;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.header {
+		padding: 15px 16px 0 16px;
+	}
+}

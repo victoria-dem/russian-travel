@@ -1,0 +1,25 @@
+@import url('./__title-zone/card__title-zone.css');
+@import url('./__content-zone/card__content-zone.css');
+@import url('./__column-left/card__column-left.css');
+@import url('./__column-right/card__column-right.css');
+@import url('./__title/card__title.css');
+@import url('./__name-link/card__name-link.css');
+@import url('./__link/card__link.css');
+@import url('./__text/card__text.css');
+@import url('./__image/card__image.css');
+.card {
+	color: #ffff;
+	padding: 77px 0 0 0;
+}
+
+@media screen and (max-width:1023px) {
+	.card {
+		padding: 72px 0 0 0;
+	}
+}
+
+@media screen and (max-width:425px) {
+	.card {
+		padding: 60px 0 0 0;
+	}
+}
