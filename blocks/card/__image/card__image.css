@@ -1,17 +1,21 @@
 .card__image {
         width: 460px;
-        height: auto;
+        margin: 0 40px 0 0;
 }
 
 @media screen and (max-width: 1024px) {
         .card__image {
                 width: 440px;
+                margin: 0 32px 0 0;
         }
 }
 
 @media screen and (max-width: 768px) {
         .card__image {
                 width: 340px;
+                margin: 0 28px 0 0;
+                object-fit: contain;
+                object-position: 0 8%;
         }
 }
 
@@ -19,5 +23,8 @@
         .card__image {
                 width: 100%;
                 height: auto;
+                margin: 0 40px 0 0;
         }
 }
+
+

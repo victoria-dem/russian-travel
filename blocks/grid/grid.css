@@ -1,16 +1,21 @@
-@import url('./__table/grid__table.css');
 @import url('./__item/grid__item.css');
 .grid {
 	max-width: 1184px;
 	margin: 0 auto;
 	padding: 93px 0 12px 0;
+	display: grid;
+	grid-template-rows: repeat(3, auto);
+	grid-template-columns: repeat(4, 284px);
+	gap: 16px;
 }
 
 @media screen and (max-width: 1279px) {
 	.grid {
-		max-width: 1184px;
 		margin: 0;
 		padding: 93px 48px 12px 48px;
+		grid-template-rows: repeat(4, auto);
+		grid-template-columns: repeat(3, minmax(300px, 385px));
+		gap: 14px;
 	}
 }
 
@@ -18,17 +23,24 @@
 	.grid {
 		max-width: 976px;
 		padding: 89px 24px 12px 24px;
+		grid-template-rows: repeat(6, auto);
+		grid-template-columns: repeat(2, minmax(352px, 479px));
+		gap: 16px;
 	}
 }
 
 @media screen and (max-width: 767px) {
 	.grid {
 		padding: 89px 16px 12px 24px;
+		grid-template-columns: repeat(2, minmax(181px, 351px));
 	}
 }
 
 @media screen and (max-width: 425px) {
 	.grid {
 		padding: 68px 16px 12px 16px;
+		grid-template-rows: repeat(12, auto);
+		grid-template-columns: minmax(288px, 393px);
+		gap: 12px;
 	}
 }

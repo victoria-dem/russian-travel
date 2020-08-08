@@ -2,7 +2,7 @@
 	padding: 0 18px 0 0;
 }
 
-.header__language-item:last-of-type {
+.header__language-item:last-child {
 	padding: 0;
 }
 

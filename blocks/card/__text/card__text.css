@@ -13,7 +13,7 @@
 	}
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 680px) {
 	.card__text {
 		padding: 27px 16px 0 16px;
 	}
