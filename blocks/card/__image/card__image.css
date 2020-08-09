@@ -7,6 +7,8 @@
         .card__image {
                 width: 440px;
                 margin: 0 32px 0 0;
+                object-fit: contain;
+                object-position: 0 8%;
         }
 }
 
@@ -14,8 +16,6 @@
         .card__image {
                 width: 340px;
                 margin: 0 28px 0 0;
-                object-fit: contain;
-                object-position: 0 8%;
         }
 }
 
@@ -23,8 +23,10 @@
         .card__image {
                 width: 100%;
                 height: auto;
-                margin: 0 40px 0 0;
+                margin: 0;
         }
 }
+
+
 
 
